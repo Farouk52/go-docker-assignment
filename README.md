@@ -15,4 +15,7 @@ To run the image:
 
 
 docker pull farouk2003333/go-app:1.0
+
+
+
 docker run -p 8080:8080 farouk2003333/go-app:1.0
