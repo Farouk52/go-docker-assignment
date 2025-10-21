@@ -2,12 +2,15 @@
 
 This repository contains a simple Go web application, containerized using Docker for the Distributed Systems course assignment.
 
+---
+
 ## ⭐ Assignment Requirement (Docker Image)
 
 The public image for this project is hosted on Docker Hub at the following URL:
 
 **[https://hub.docker.com/r/farouk2003333/go-app](https://hub.docker.com/r/farouk2003333/go-app)**
 
+---
 
 ## ▶ How to Run the Application
 
@@ -31,10 +34,9 @@ This method pulls the public image and runs it directly.
 This method requires cloning the repository and building the image locally.
 
 1.  *Clone the GitHub repository:*
-    (Note: Update the URL to the full repository link)
     bash
-    git clone [https://github.com/Farouk52/YOUR-REPOSITORY-NAME-HERE.git](https://github.com/Farouk52/YOUR-REPOSITORY-NAME-HERE.git)
-    cd YOUR-REPOSITORY-NAME-HERE
+    git clone [https://github.com/Farouk52/go-docker-assignment.git](https://github.com/Farouk52/go-docker-assignment.git)
+    cd go-docker-assignment
     
 2.  *Build the Docker image:*
     bash
@@ -45,6 +47,7 @@ This method requires cloning the repository and building the image locally.
     docker run --rm -p 8080:8080 my-local-go-app
     
 
+---
 
 ## 🖥 Accessing the Application
 
